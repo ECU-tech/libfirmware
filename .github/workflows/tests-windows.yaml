@@ -1,0 +1,34 @@
+name: Unit Tests on Windows
+
+on: [ push,pull_request ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Set up MinGW
+        uses: egor-tensin/setup-mingw@v2
+        with:
+          version: 12.2.0 # https://github.com/egor-tensin/setup-mingw/issues/14
+
+      - name: Print GCC version
+        working-directory: .
+        run: gcc -v
+
+      - name: Print make version
+        working-directory: .
+        run: make -v
+
+      - name: Compile
+        working-directory: .
+        run: make
+
+      - name: Run Tests on Windows
+        working-directory: build
+        run: ./libfirmware_test.exe

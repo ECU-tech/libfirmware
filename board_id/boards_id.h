@@ -1,0 +1,71 @@
+//
+// was generated automatically by Hellen Board-ID generation tool gen_board_ids_h.py 2024-08-12 22:36:58.154615
+//
+
+#pragma once
+
+#define BOARD_ID_UNKNOWN			0
+#define BOARD_ID_72_NB2_E			1
+#define BOARD_ID_81HD_B			2
+#define BOARD_ID_ALPHA2CH_B			3
+#define BOARD_ID_ALPHA4CH_A			4
+#define BOARD_ID_ALPHA2CH_C			5
+#define BOARD_ID_NB1_C			6
+#define BOARD_ID_NA6_94_C			7
+#define BOARD_ID_NISSAN121_C			8
+#define BOARD_ID_ALPHA8CH_A			9
+#define BOARD_ID_154HYUNDAI_C			10
+#define BOARD_ID_ALPHA4CH_B			11
+#define BOARD_ID_GM_E67_A			12
+#define BOARD_ID_55BMW_A			13
+#define BOARD_ID_GM_E38_A			14
+#define BOARD_ID_72_NB2_F			15
+#define BOARD_ID_ALPHA4CH_C			100
+#define BOARD_ID_88BMW_B			101
+#define BOARD_ID_GM_E67_B			102
+#define BOARD_ID_ALPHA4CH_D			103
+#define BOARD_ID_NISSAN121_D			104
+#define BOARD_ID_ALPHA4CH_E			105
+#define BOARD_ID_NA6_94_D			106
+#define BOARD_ID_ALPHA2CH_D			107
+#define BOARD_ID_GM_E67_C			108
+#define BOARD_ID_NISSAN121_E			109
+#define BOARD_ID_HONDA125_A			110
+#define BOARD_ID_VAG121_D			111
+#define BOARD_ID_ALPHA2CH_E			112
+#define BOARD_ID_ALPHA4CH_F			113
+#define BOARD_ID_ALPHA4CH_H			114
+#define BOARD_ID_ALPHA2CH_F			115
+#define BOARD_ID_ALPHA8CH_B			200
+#define BOARD_ID_154HYUNDAI_D			201
+#define BOARD_ID_HONDA125_C			202
+#define BOARD_ID_ALPHA4CH_G			203
+#define BOARD_ID_HONDA125_B			204
+#define BOARD_ID_ALPHA4CH_I			205
+#define BOARD_ID_HONDA125_D			206
+#define BOARD_ID_HONDA125_E			207
+#define BOARD_ID_SMALL_CAN_A			208
+#define BOARD_ID_SMALL_CAN_B			209
+#define BOARD_ID_ALPHA2CH_G			210
+#define BOARD_ID_H112_17_A			211
+#define BOARD_ID_H112_MG1_A			212
+#define BOARD_ID_H112_17_B			213
+#define BOARD_ID_ALPHA8CH_C			214
+#define BOARD_ID_UAEFI_A			215
+#define BOARD_ID_H112_MG1_B			300
+#define BOARD_ID_HD81_A			301
+#define BOARD_ID_UAEFI_B			302
+#define BOARD_ID_GDI4CHAN_A			303
+#define BOARD_ID_ALPHAX_SILVER_A			304
+#define BOARD_ID_HD81_B			305
+#define BOARD_ID_154HYUNDAI_E			306
+#define BOARD_ID_H112_MG1_C			307
+#define BOARD_ID_UAEFI121_A			308
+#define BOARD_ID_POLARIS_112_A			309
+#define BOARD_ID_UAEFI121_B			310
+#define BOARD_ID_GDI4CHAN_B			311
+#define BOARD_ID_ALPHAX_SILVER_B			313
+#define BOARD_ID_E92_A			400
+#define BOARD_ID_81HD_E			401
+#define BOARD_ID_HONDA_OBD1_C			402
+
