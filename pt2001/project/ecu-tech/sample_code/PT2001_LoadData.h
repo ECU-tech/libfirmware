@@ -43,7 +43,7 @@
 //==============================================================================
 
 // ECU: IDE Project
-// Project: ecu-tech
+// Project: gerefi
 
 #ifndef PT2001_DATA_H_
 #define PT2001_DATA_H_

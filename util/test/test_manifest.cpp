@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include <ecu-tech/manifest.h>
+#include <gerefi/manifest.h>
 
 TEST(Util, manifest) {
     int year = compilationYear();

@@ -1,6 +1,6 @@
 
-#include <ecu-tech/timer.h>
-#include <ecu-tech/ecu-tech_time_math.h>
+#include <gerefi/timer.h>
+#include <gerefi/gerefi_time_math.h>
 
 Timer::Timer() {
 	init();

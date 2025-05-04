@@ -1,7 +1,7 @@
 #include "gtest/gtest.h"
 
-#include <ecu-tech/arrays.h>
-#include <ecu-tech/interpolation.h>
+#include <gerefi/arrays.h>
+#include <gerefi/interpolation.h>
 
 TEST(Util_Interpolation, testInterpolate2d) {
 	float bins4[] = { 1, 2, 3, 4 };

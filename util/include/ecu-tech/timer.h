@@ -4,7 +4,7 @@
 
 #pragma once
 
-#include <ecu-tech/ecu-tech_time_types.h>
+#include <gerefi/gerefi_time_types.h>
 
 /**
  * Helper class with "has X amount of time elapsed since most recent reset" methods

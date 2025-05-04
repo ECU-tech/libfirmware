@@ -1,7 +1,7 @@
 #pragma once
 
 #include <global.h>
-#include <ecu-tech/ecu-tech_time_types.h>
+#include <gerefi/gerefi_time_types.h>
 
 // microseconds to ticks, but floating point
 // If converting a floating point time period, use this macro to avoid

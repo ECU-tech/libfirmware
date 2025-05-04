@@ -1,6 +1,6 @@
 #pragma once
 
-#include <ecu-tech/ecu-tech_time_types.h>
+#include <gerefi/gerefi_time_types.h>
 
 // custom start value could be useful for testing
 #ifndef WRAP_AROUND_INITIAL_UPPER

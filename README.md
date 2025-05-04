@@ -3,11 +3,11 @@
 
 ## Including modules in your project:
 
-Set variable `$(ECU-TECH_LIB)` to the path to the folder that contains this readme.
+Set variable `$(GEREFI_LIB)` to the path to the folder that contains this readme.
 
 Include the mk files of the modules that you want, then add:
-- `$(ECU-TECH_LIB_INC)` to your list of includes
-- `$(ECU-TECH_LIB_CPP)` to your list of c++ input files
+- `$(GEREFI_LIB_INC)` to your list of includes
+- `$(GEREFI_LIB_CPP)` to your list of c++ input files
 
 Currently, C++17 is required to compile these libraries.
 

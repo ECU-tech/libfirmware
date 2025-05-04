@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
-#include <ecu-tech/ecu-tech_time_types.h>
-#include <ecu-tech/ecu-tech_time_wraparound.h>
+#include <gerefi/gerefi_time_types.h>
+#include <gerefi/gerefi_time_wraparound.h>
 
 TEST(util, WrapAround62) {
 	// Random test

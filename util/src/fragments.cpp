@@ -5,9 +5,9 @@
  * @author Andrey Belomutskiy, (c) 2012-2022
  */
 
-#include <ecu-tech/fragments.h>
+#include <gerefi/fragments.h>
 
-#include <ecu-tech/math.h>
+#include <gerefi/math.h>
 #include <cstring>
 
 size_t copyRange(uint8_t* destination, FragmentList src, size_t skip, size_t size) {

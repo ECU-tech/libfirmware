@@ -6,21 +6,21 @@
 PROJECT_DIR = .
 
 # Imported source files and paths
-ECU-TECH_LIB = .
-include $(ECU-TECH_LIB)/util/util.mk
-include $(ECU-TECH_LIB)/pt2001/pt2001.mk
-include $(ECU-TECH_LIB)/sent/sent.mk
+GEREFI_LIB = .
+include $(GEREFI_LIB)/util/util.mk
+include $(GEREFI_LIB)/pt2001/pt2001.mk
+include $(GEREFI_LIB)/sent/sent.mk
 
 # C sources that can be compiled in ARM or THUMB mode depending on the global
 # setting.
 CSRC += \
-	$(ECU-TECH_LIB_C) \
+	$(GEREFI_LIB_C) \
 
 # C++ sources that can be compiled in ARM or THUMB mode depending on the global
 # setting.
 CPPSRC += \
-	$(ECU-TECH_LIB_CPP) \
-	$(ECU-TECH_LIB_CPP_TEST) \
+	$(GEREFI_LIB_CPP) \
+	$(GEREFI_LIB_CPP_TEST) \
 	util/src/timer.cpp \
 	mock/lib-time-mocks.cpp \
 	gtest-all.cpp \
@@ -33,7 +33,7 @@ INCDIR += \
 	$(PROJECT_DIR)/ext/googletest/googletest \
 	$(PROJECT_DIR)/ext/googletest/googletest/include \
 	$(PROJECT_DIR)/mock \
-	$(ECU-TECH_LIB_INC) \
+	$(GEREFI_LIB_INC) \
 
 # User may want to pass in a forced value for SANITIZE
 ifeq ($(SANITIZE),)

@@ -14,8 +14,8 @@
  * @author Matthew Kennedy
  */
 
-#include <ecu-tech/pt2001.h>
-#include <ecu-tech/arrays.h>
+#include <gerefi/pt2001.h>
+#include <gerefi/arrays.h>
 
 #include <PT2001_LoadData.h>
 

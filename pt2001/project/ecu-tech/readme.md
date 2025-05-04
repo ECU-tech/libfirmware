@@ -5,9 +5,9 @@ Source code here is different from but is heavily inspired by MC33816 example as
 
 ### PT2001 Studio: Compiling/Generating C/header Files
 
-1. Open "PT2001 Developer Studio", and open project `firmware/hw_layer/mc33816/ecu-tech/project.xml`.
+1. Open "PT2001 Developer Studio", and open project `firmware/hw_layer/mc33816/gerefi/project.xml`.
 2. Press the "Build" button at the right/center of the window to assemble the microcode.
-3. Use `Tools` -> `Generate PT2001 Load Data Code` to generate C/header files used by ecu-TECH to program the PT2001 over SPI at boot (see `mc33816/ecu-tech/sample_code/`).
+3. Use `Tools` -> `Generate PT2001 Load Data Code` to generate C/header files used by gerEFI to program the PT2001 over SPI at boot (see `mc33816/gerefi/sample_code/`).
 
 ### PSC Simulator: Simulating microcode/config changes
 
@@ -19,4 +19,4 @@ Source code here is different from but is heavily inspired by MC33816 example as
 6. Wait for the simulation to run. There's an indication in the bottom left corner of the main window about simulation progress.
 7. Inspect the simulation results!
 
-Just in case we have a backup of tools at https://github.com/ecu-tech/ecu-tech_external_utils/tree/master/NXP-GDI
+Just in case we have a backup of tools at https://github.com/gerefi/gerefi_external_utils/tree/master/NXP-GDI

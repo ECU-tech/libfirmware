@@ -1,4 +1,4 @@
-#include <ecu-tech/scaled_channel.h>
+#include <gerefi/scaled_channel.h>
 
 #include <gtest/gtest.h>
 #include <math.h>

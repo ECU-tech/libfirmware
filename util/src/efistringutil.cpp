@@ -1,8 +1,8 @@
 #include <cstring>
 #include <cstdint>
 #include <math.h>
-#include <ecu-tech/efistringutil.h>
-#include <ecu-tech/math.h>
+#include <gerefi/efistringutil.h>
+#include <gerefi/math.h>
 
 uint32_t efiStrlen(const char *param) {
 	const char *s;

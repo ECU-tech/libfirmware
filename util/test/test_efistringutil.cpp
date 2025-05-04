@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include <ecu-tech/efistringutil.h>
+#include <gerefi/efistringutil.h>
 
 TEST(Util_String, equalsIgnoreCase) {
     ASSERT_FALSE(strEqualCaseInsensitive("a", "b"));

@@ -1,5 +1,5 @@
 /**
- * see mc33816/ecu-tech/readme.md
+ * see mc33816/gerefi/readme.md
 */
 
 #pragma once

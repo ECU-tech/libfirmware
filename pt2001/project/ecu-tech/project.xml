@@ -4,7 +4,7 @@
     <ECU>IDE Project</ECU>
     <Application>%APPLICATION%</Application>
     <DeviceName>%DEVICEID%</DeviceName>
-    <Version>ecu-tech</Version>
+    <Version>gerefi</Version>
     <Prefix>%PREFIX%</Prefix>
   </Identifiers>
   <Files>
